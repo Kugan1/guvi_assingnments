@@ -30,8 +30,8 @@ OUTPUT:\
 YES
 
 
-**4.Consider today is Sunday, In a restaurant, too much crowd in the cash counter the cashier needs some help to calculate the bills. that restaurant has different recipes they are,**
-Menu:-
+**4.Consider today is Sunday, In a restaurant, too much crowd in the cash counter the cashier needs some help to calculate the bills. that restaurant has different recipes they are,**\
+Menu:-\
 oniondosa-90 rs\
 plaindosa-40 rs\
 ravadosa-75 rs\
@@ -56,15 +56,43 @@ Sample Testcase:\
 vada 2 coffee 1\
 **Output:**\
 Total Price(GST inclusive):Rs 47.25\
-sample input:\
+**sample input:**\
 tea 2\
-sample output:\
+**sample output:**\
 Total Price(GST inclusive) : Rs 52.5\
-sample input:\
+**sample input:**\
 vada 2 coffee 1\
-sample output:\
+**sample output:**\
 Total Price(GST inclusive) Rs 47.25\
-sample input:\
+**sample input:**\
 masaladosa 1\
-sample output:\
+**sample output:**\
 Sorry, Only recipes on the monu!
+
+**5.An interview is scheduled for a list of students in GUVI Office,and the candidate list has been shared to the interview panel.\
+But in the last minute HR came to know the last n students in the candidate list need to be given priority,since they need to catch a flight.**
+
+For Example, with n=7 candidates and k=3 need to catch their flight So the order need to be changed as\
+(1,2,3,4,5,6,7)to(5,6,7,1,2,3,4).\
+If k <=0,no shuffling is needed.\
+Write a program to help the HR to shuffle the candidate list so that last in will come in the first.
+
+Input:\
+n-No. of candidates\
+k-No. of candidates in the end of the list who need to be given priority\
+a[n]-Candidates list\
+Output:\
+Candidates list in shuffled order\
+**Sample Input1:**\
+7\
+3\
+1 2 3 4 5 6 7\
+**Output:**\
+5 6 7 1 2 3 4
+
+**Sample Input2:**\
+8\
+5\
+10 20 30 40 50 60 70 80\
+**Output:**\
+40 50 60 70 80 10 20 30
